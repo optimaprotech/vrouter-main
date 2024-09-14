@@ -485,6 +485,7 @@ class WidgetsVRouterState extends State<WidgetsVRouter>
         localeResolutionCallback: widget.localeResolutionCallback,
         supportedLocales: widget.supportedLocales,
         showPerformanceOverlay: widget.showPerformanceOverlay,
+        checkerboardRasterCacheImages: widget.checkerboardRasterCacheImages,
         checkerboardOffscreenLayers: widget.checkerboardOffscreenLayers,
         showSemanticsDebugger: widget.showSemanticsDebugger,
         debugShowWidgetInspector: widget.debugShowWidgetInspector,
