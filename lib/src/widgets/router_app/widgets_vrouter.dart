@@ -110,7 +110,6 @@ class WidgetsVRouter extends VRouterApp {
     this.localeResolutionCallback,
     this.supportedLocales = const <Locale>[Locale('en', 'US')],
     this.showPerformanceOverlay = false,
-    this.checkerboardRasterCacheImages = false,
     this.checkerboardOffscreenLayers = false,
     this.showSemanticsDebugger = false,
     this.debugShowWidgetInspector = false,
@@ -302,7 +301,6 @@ class WidgetsVRouter extends VRouterApp {
   final bool showPerformanceOverlay;
 
   /// Turns on checkerboarding of raster cache images.
-  final bool checkerboardRasterCacheImages;
 
   /// Turns on checkerboarding of layers rendered to offscreen bitmaps.
   final bool checkerboardOffscreenLayers;
