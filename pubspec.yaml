@@ -12,7 +12,7 @@ dependencies:
 
   move_to_background:
     git:
-      url: https://github.com/optimaprotech/flutter_google_places-master.git
+      url: https://github.com/optimaprotech/move_to_background-master.git
 
       
   flutter:
